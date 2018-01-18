@@ -1,0 +1,21 @@
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   --p-color: #37405d;
+   --s-color: #0ed487;
+   --t-color: #27304f;
+   --card-width: 450px;
+   --card-height: 800px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 200;
+}
+
+body {
+   height: 100%;
+}

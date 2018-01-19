@@ -6,16 +6,38 @@
 }
 
 html {
-   --p-color: #37405d;
-   --s-color: #0ed487;
+   --text-color: #595d6a;
+   --p-color: #800813;
    --t-color: #27304f;
-   --card-width: 450px;
-   --card-height: 800px;
-   font-family: 'Raleway', sans-serif;
+   --card-width: 300px;
+   --card-height: 500px;
+   font-family: 'Play', sans-serif;
    font-size: 16px;
    font-weight: 200;
+   color: var(--text-color);
 }
 
 body {
    height: 100%;
+}
+
+.card-container {
+   width: var(--card-width);
+   height: var(--card-height);
+   display: block;
+}
+
+.img-container {
+   width: var(--card-width);
+   border: solid 3px var(--text-color);
+}
+
+.cards {
+   background-color: green;
+   display: inline-block;
+}
+
+img {
+   width: 100%;
+   height: auto;
 }
